@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+*{
+    font-family: "Montserrat";
+}
+
+body,h1,h2{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 15px;
+}
+
+.complete{
+    font-family: "맑은고딕";
+    font-weight: bold;
+    
+}
+section{
+  
+    padding: 20px;
+}
+
+.list{
+    float: left;
+}
+.year-text{
+    float: right;
+    font-size: 13px;
+}
+
+.mainbox{
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 10px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #000;
+    
+}
+
+.title-box{
+    text-align: right;
+    padding: 20px;
+    
+}
+.image{
+    overflow: hidden;
+    float: left;
+    
+    display: block;
+}
+
+
+footer{
+    text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+  
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
